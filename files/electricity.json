@@ -24,7 +24,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "P2A366ABB0CD47F51"
+        "uid": "PAD9A8A6388F8F174"
       },
       "fieldConfig": {
         "defaults": {
@@ -91,9 +91,7 @@
       "id": 1,
       "options": {
         "legend": {
-          "calcs": [
-            "last"
-          ],
+          "calcs": ["last"],
           "displayMode": "list",
           "placement": "bottom",
           "showLegend": true
@@ -107,25 +105,19 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2A366ABB0CD47F51"
+            "uid": "PAD9A8A6388F8F174"
           },
           "groupBy": [
             {
-              "params": [
-                "$__interval"
-              ],
+              "params": ["$__interval"],
               "type": "time"
             },
             {
-              "params": [
-                "entity_id::tag"
-              ],
+              "params": ["entity_id::tag"],
               "type": "tag"
             },
             {
-              "params": [
-                "none"
-              ],
+              "params": ["none"],
               "type": "fill"
             }
           ],
@@ -138,9 +130,7 @@
           "select": [
             [
               {
-                "params": [
-                  "value"
-                ],
+                "params": ["value"],
                 "type": "field"
               },
               {
@@ -160,25 +150,19 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2A366ABB0CD47F51"
+            "uid": "PAD9A8A6388F8F174"
           },
           "groupBy": [
             {
-              "params": [
-                "$__interval"
-              ],
+              "params": ["$__interval"],
               "type": "time"
             },
             {
-              "params": [
-                "entity_id::tag"
-              ],
+              "params": ["entity_id::tag"],
               "type": "tag"
             },
             {
-              "params": [
-                "none"
-              ],
+              "params": ["none"],
               "type": "fill"
             }
           ],
@@ -191,9 +175,7 @@
           "select": [
             [
               {
-                "params": [
-                  "value"
-                ],
+                "params": ["value"],
                 "type": "field"
               },
               {
@@ -213,25 +195,19 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2A366ABB0CD47F51"
+            "uid": "PAD9A8A6388F8F174"
           },
           "groupBy": [
             {
-              "params": [
-                "$__interval"
-              ],
+              "params": ["$__interval"],
               "type": "time"
             },
             {
-              "params": [
-                "entity_id::tag"
-              ],
+              "params": ["entity_id::tag"],
               "type": "tag"
             },
             {
-              "params": [
-                "none"
-              ],
+              "params": ["none"],
               "type": "fill"
             }
           ],
@@ -244,9 +220,7 @@
           "select": [
             [
               {
-                "params": [
-                  "value"
-                ],
+                "params": ["value"],
                 "type": "field"
               },
               {
@@ -254,9 +228,7 @@
                 "type": "mean"
               },
               {
-                "params": [
-                  " * -1"
-                ],
+                "params": [" * -1"],
                 "type": "math"
               }
             ]
