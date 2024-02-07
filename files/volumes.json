@@ -97,7 +97,7 @@
         "type": "gauge"
       }
     ],
-    "refresh": "",
+    "refresh": "1m",
     "schemaVersion": 38,
     "tags": [],
     "templating": {
