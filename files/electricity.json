@@ -18,6 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
+  "id": 4,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -33,13 +34,13 @@
           },
           "custom": {
             "axisBorderShow": false,
-            "axisCenteredZero": false,
+            "axisCenteredZero": true,
             "axisColorMode": "text",
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 14,
+            "fillOpacity": 41,
             "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
@@ -91,7 +92,9 @@
       "id": 1,
       "options": {
         "legend": {
-          "calcs": ["last"],
+          "calcs": [
+            "last"
+          ],
           "displayMode": "list",
           "placement": "bottom",
           "showLegend": true
@@ -109,15 +112,21 @@
           },
           "groupBy": [
             {
-              "params": ["$__interval"],
+              "params": [
+                "$__interval"
+              ],
               "type": "time"
             },
             {
-              "params": ["entity_id::tag"],
+              "params": [
+                "entity_id::tag"
+              ],
               "type": "tag"
             },
             {
-              "params": ["none"],
+              "params": [
+                "none"
+              ],
               "type": "fill"
             }
           ],
@@ -130,7 +139,9 @@
           "select": [
             [
               {
-                "params": ["value"],
+                "params": [
+                  "value"
+                ],
                 "type": "field"
               },
               {
@@ -154,15 +165,21 @@
           },
           "groupBy": [
             {
-              "params": ["$__interval"],
+              "params": [
+                "$__interval"
+              ],
               "type": "time"
             },
             {
-              "params": ["entity_id::tag"],
+              "params": [
+                "entity_id::tag"
+              ],
               "type": "tag"
             },
             {
-              "params": ["none"],
+              "params": [
+                "none"
+              ],
               "type": "fill"
             }
           ],
@@ -175,7 +192,9 @@
           "select": [
             [
               {
-                "params": ["value"],
+                "params": [
+                  "value"
+                ],
                 "type": "field"
               },
               {
@@ -199,15 +218,21 @@
           },
           "groupBy": [
             {
-              "params": ["$__interval"],
+              "params": [
+                "$__interval"
+              ],
               "type": "time"
             },
             {
-              "params": ["entity_id::tag"],
+              "params": [
+                "entity_id::tag"
+              ],
               "type": "tag"
             },
             {
-              "params": ["none"],
+              "params": [
+                "none"
+              ],
               "type": "fill"
             }
           ],
@@ -220,7 +245,9 @@
           "select": [
             [
               {
-                "params": ["value"],
+                "params": [
+                  "value"
+                ],
                 "type": "field"
               },
               {
@@ -228,7 +255,9 @@
                 "type": "mean"
               },
               {
-                "params": [" * -1"],
+                "params": [
+                  " * -1"
+                ],
                 "type": "math"
               }
             ]
@@ -321,6 +350,6 @@
   "timezone": "",
   "title": "Electricity",
   "uid": "a8839cea-f717-4d83-92ba-fd34b05c59a6",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
