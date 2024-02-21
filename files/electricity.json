@@ -200,6 +200,12 @@
               {
                 "params": [],
                 "type": "mean"
+              },
+              {
+                "params": [
+                  " * -1"
+                ],
+                "type": "math"
               }
             ]
           ],
@@ -350,6 +356,6 @@
   "timezone": "",
   "title": "Electricity",
   "uid": "a8839cea-f717-4d83-92ba-fd34b05c59a6",
-  "version": 2,
+  "version": 1,
   "weekStart": ""
 }
