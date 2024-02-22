@@ -40,14 +40,14 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 41,
+            "fillOpacity": 49,
             "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
               "viz": false
             },
-            "insertNulls": false,
+            "insertNulls": 900000,
             "lineInterpolation": "smooth",
             "lineWidth": 1,
             "pointSize": 5,
@@ -55,7 +55,7 @@
               "type": "linear"
             },
             "showPoints": "auto",
-            "spanNulls": false,
+            "spanNulls": 900000,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -125,7 +125,7 @@
             },
             {
               "params": [
-                "none"
+                "null"
               ],
               "type": "fill"
             }
@@ -282,7 +282,7 @@
       "type": "timeseries"
     }
   ],
-  "refresh": "1m",
+  "refresh": false,
   "schemaVersion": 39,
   "tags": [],
   "templating": {
@@ -349,8 +349,8 @@
     ]
   },
   "time": {
-    "from": "now-24h",
-    "to": "now"
+    "from": "2024-02-20T05:09:09.619Z",
+    "to": "2024-02-20T18:51:23.758Z"
   },
   "timepicker": {},
   "timezone": "",
